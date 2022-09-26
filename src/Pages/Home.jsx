@@ -1,7 +1,9 @@
 import React from "react";
+import MyComponent from "react-sociallogin-kc";
+import "react-sociallogin-kc/dist/index.css";
 
 function Home() {
-  return <h1>hello user!</h1>;
+  return <MyComponent text="hello there" />;
 }
 
 export default Home;
